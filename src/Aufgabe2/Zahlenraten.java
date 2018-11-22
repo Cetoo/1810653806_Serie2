@@ -41,20 +41,46 @@ public class Zahlenraten
 
         int Eingabe = Integer.parseInt(Satz);
 
-        if (Eingabe == zufallszahl)
-        {
-            JOptionPane.showMessageDialog(null, "Die Zahl stimmt überein");
-        }
 
-        else if (Eingabe>=zufallszahl -2 && Eingabe<=zufallszahl +2)
-        {
 
-            JOptionPane.showMessageDialog(null, "Die Zahl liegt innerhalb der Grenze +2 oder -2");
-        }
 
-        else
+
+        int Versuche;
+        for (Versuche=1; Versuche<3; Versuche++) /*Versuche<=3 sagt mir wieviel Versuche der Nutzer hat Versuche++ zählt die Versuche für den Nutzer mit*/
         {
-            JOptionPane.showMessageDialog(null, "Die Zahl stimmt überein");
+            if (Eingabe != zufallszahl) /*Falls meine Zahl nicht die Zufallszahl ist gebe ich ihm mit show Dialog darunter an das die Zahl falsch war*/
+            { /*In der Regel bzw. optimaler ist es wenn man nach == frägt da man ja wissen will ob es richtig ist*/
+              Eingabe = Integer.parseInt(JOptionPane.showInputDialog("Die Zahl war falsch versuchen Sie es noch einmal"));
+
+
+                if (Eingabe == zufallszahl)
+                {
+                    JOptionPane.showMessageDialog(null, "Die Zahl stimmt überein");
+                }
+
+                else if ((zufallszahl-Eingabe) <= -2 &&(zufallszahl-Eingabe)<=2)
+                {
+
+                    JOptionPane.showMessageDialog(null, "Die Zahl liegt innerhalb der Grenze -2 oder +2");
+                }
+
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Die Zahl stimmt nich überein");
+                }
+            }
+
+
+            else /*Falls die Zahl gleich der Zufallszahl ist gibt das System aus die Zahl war richtig aus*/
+            {
+                JOptionPane.showMessageDialog(null, "Die Zahl war richtig");
+                break;
+            }
+
+            if (Versuche==2)
+            {
+                JOptionPane.showMessageDialog(null, "Ihre 3 Versuche waren falsch");
+            }
         }
 
     }
