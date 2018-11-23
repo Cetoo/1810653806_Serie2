@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d76e50-e58c-4424-9c2b-e7858ddde831" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Aufgabe2/Aufg5WhileSchleife.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Software Übung 2 am 22.11/Aufgabe2/Zahlenraten.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aufgabe2/Zahlenraten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe2/Zahlenraten.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,22 +25,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4370" />
+          <entry key="java" value="5820" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4370" />
+          <entry key="JAVA" value="5820" />
         </counts>
       </usages-collector>
     </session>
@@ -68,8 +68,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Aufgabe2/Zahlenraten.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Aufgabe2/Aufg5WhileSchleife.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="28" column="156" selection-start-line="28" selection-start-column="156" selection-end-line="28" selection-end-column="156" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,6 +106,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/Aufgabe1.java" />
         <option value="$PROJECT_DIR$/src/Aufgabe2/Zahlenraten.java" />
+        <option value="$PROJECT_DIR$/src/Aufgabe2/Aufg5WhileSchleife.java" />
       </list>
     </option>
   </component>
@@ -114,8 +127,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,7 +150,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542976676887" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542979135560" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -153,6 +166,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Zahlenraten">
+    <configuration name="Aufg5WhileSchleife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aufgabe2.Aufg5WhileSchleife" />
+      <module name="Software Übung 2 am 22.11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aufgabe2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Aufgabe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aufgabe1" />
       <module name="Software Übung 2 am 22.11" />
@@ -187,10 +213,12 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Aufgabe1" />
       <item itemvalue="Application.Zahlenraten" />
+      <item itemvalue="Application.Aufg5WhileSchleife" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Zahlenraten" />
+        <item itemvalue="Application.Aufg5WhileSchleife" />
         <item itemvalue="Application.Aufgabe1" />
       </list>
     </recent_temporary>
@@ -206,12 +234,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542890789662</updated>
       <workItem from="1542890793519" duration="8832000" />
-      <workItem from="1542972557293" duration="3947000" />
+      <workItem from="1542972557293" duration="6508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12779000" />
+    <option name="totallyTimeSpent" value="15340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -222,7 +250,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32907802" />
@@ -230,9 +258,9 @@
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -252,15 +280,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.24966443" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -299,10 +327,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe2/Aufg5WhileSchleife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="156" selection-start-line="28" selection-start-column="156" selection-end-line="28" selection-end-column="156" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aufgabe2/Zahlenraten.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
