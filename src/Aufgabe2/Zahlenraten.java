@@ -37,51 +37,34 @@ public class Zahlenraten
         /*Aufgabe 3*/
         /*Mein Dialog sagt dem Nutzer das er eine ganze Zahl zwischen 1und10 eingeben soll*/
 
-        String Satz= JOptionPane.showInputDialog("Geben Sie eine ganze Zahl zwischen 1 und 10 ein");
-
-        int Eingabe = Integer.parseInt(Satz);
-
-
-
-
-
-        int Versuche;
-        for (Versuche=1; Versuche<3; Versuche++) /*Versuche<=3 sagt mir wieviel Versuche der Nutzer hat Versuche++ zählt die Versuche für den Nutzer mit*/
+        for (int i=0; i<3; i++)
         {
-            if (Eingabe != zufallszahl) /*Falls meine Zahl nicht die Zufallszahl ist gebe ich ihm mit show Dialog darunter an das die Zahl falsch war*/
-            { /*In der Regel bzw. optimaler ist es wenn man nach == frägt da man ja wissen will ob es richtig ist*/
-              Eingabe = Integer.parseInt(JOptionPane.showInputDialog("Die Zahl war falsch versuchen Sie es noch einmal"));
+            String rueckgabewert;
+            rueckgabewert = JOptionPane.showInputDialog(null, "Geben Sie bitte eine ganze Zahl zwischen 1 und 10 ein.");
 
-
-                if (Eingabe == zufallszahl)
-                {
-                    JOptionPane.showMessageDialog(null, "Die Zahl stimmt überein");
-                }
-
-                else if ((zufallszahl-Eingabe) <= -2 &&(zufallszahl-Eingabe)<=2)
-                {
-
-                    JOptionPane.showMessageDialog(null, "Die Zahl liegt innerhalb der Grenze -2 oder +2");
-                }
-
-                else
-                {
-                    JOptionPane.showMessageDialog(null, "Die Zahl stimmt nich überein");
-                }
-            }
-
-
-            else /*Falls die Zahl gleich der Zufallszahl ist gibt das System aus die Zahl war richtig aus*/
+            if (Integer.parseInt(rueckgabewert) == zufallszahl) /*Falls meine Zahl richtig war wird die Schleife abgebrochen durch einen Break und Deine Zahl ist richtig ausgegeben*/
             {
-                JOptionPane.showMessageDialog(null, "Die Zahl war richtig");
+                JOptionPane.showMessageDialog(null, "Deine Zahl ist richtig");
                 break;
             }
 
-            if (Versuche==2)
+
+            else if ((Integer.parseInt(rueckgabewert)- zufallszahl) >= -2 && (Integer.parseInt(rueckgabewert)- zufallszahl) <= 2)
+            /*Falls die eingegebene Zahl 2 zu wenig oder 2 zu hoch ist kommt die Message das die Zahl im Wertebereich liegt*/
             {
-                JOptionPane.showMessageDialog(null, "Ihre 3 Versuche waren falsch");
+                JOptionPane.showMessageDialog(null, "Ihre Zahl liegt im Grenzbereich +2 oder -2");
+            }
+
+
+            else {
+                JOptionPane.showMessageDialog(null, "Ihre Zahl war leider falsch");
+                /*Ihre Zahl war leider falsch erscheint nur dann wenn meine eingegebene Zahl mehr 2 unterschied hat*/
+            }
+                if (i == 2)
+                {
+                    JOptionPane.showMessageDialog(null, "Ihre maximale Anzahl an Versuchen ist verbraucht");
+                    /*Falls mein ==2 also mein 0,1,2 Versuch und somit 3ter falsch war kommt die Message das die Anzahl an Versuche verbraucht wurde*/
+                }
             }
         }
-
     }
-}
